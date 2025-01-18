@@ -1,4 +1,4 @@
-@use "constants";
+@use "../constants";
 
 
 .ek-header {
@@ -66,4 +66,9 @@
 .ek-miniapps-image {
     width: 80%;
     height: 80%;
+}
+
+.ek-main {
+    display: flex;
+    flex-grow: 1;
 }

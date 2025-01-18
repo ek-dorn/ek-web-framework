@@ -1,0 +1,12 @@
+@use "../../constants";
+
+
+.ek-side-menu {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-right: constants.$EK_BORDER_SIZE solid constants.$EK_BORDER_COLOR;
+}

@@ -2,16 +2,16 @@
     <div class="ek-website-brand">
         <img class="ek-brand-image" src="./sample-brand.svg"/>
     </div>
-    <div class="ek-main-menu">
-        <a class="ek-main-menu-link ek-main-menu-link-selected" href="#">Portfolio</a>
-        <a class="ek-main-menu-link" href="#">About me</a>
-        <a class="ek-main-menu-link" href="#">Cooperation</a>
-    </div>
+    <nav class="ek-main-menu">
+        <a class="ek-main-menu-link" routerLinkActive="ek-main-menu-link-selected" routerLink="/portfolio">Portfolio</a>
+        <a class="ek-main-menu-link" routerLinkActive="ek-main-menu-link-selected" routerLink="/portfolio">About me</a>
+        <a class="ek-main-menu-link" routerLinkActive="ek-main-menu-link-selected" routerLink="/portfolio">Cooperation</a>
+    </nav>
     <div class="ek-miniapps-button">
         <img class="ek-miniapps-image" src="./sample-miniapps.svg"/>
     </div>
 </header>
 
-<main>
+<main class="ek-main">
     <router-outlet />
 </main>

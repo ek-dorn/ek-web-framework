@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ek-web-framework": {
+    "example-website": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ek-web-framework",
+            "outputPath": "dist/example-website",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ek-web-framework:build:production"
+              "buildTarget": "example-website:build:production"
             },
             "development": {
-              "buildTarget": "ek-web-framework:build:development"
+              "buildTarget": "example-website:build:development"
             }
           },
           "defaultConfiguration": "development"

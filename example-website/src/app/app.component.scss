@@ -1,0 +1,69 @@
+@use "constants";
+
+
+.ek-header {
+    display: flex;
+    height: constants.$EK_HEADER_HEIGHT;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: constants.$EK_BORDER_SIZE solid constants.$EK_BORDER_COLOR;
+    background: constants.$EK_HEADER_COLOR;
+}
+
+.ek-website-brand {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-right: constants.$EK_BORDER_SIZE solid constants.$EK_BORDER_COLOR;
+}
+
+.ek-brand-image {
+    width: 80%;
+    height: 70%;
+}
+
+.ek-main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(constants.$EK_HEADER_HEIGHT / 2);
+    flex-grow: 1;
+}
+
+.ek-main-menu-link{
+    color: constants.$EK_MAIN_MRNU_LINK_COLOR;
+    font-family: constants.$EK_MAIN_MRNU_LINK_FONT;
+    font-size: calc(constants.$EK_HEADER_HEIGHT * 0.4);
+    font-style: normal;
+    font-weight: constants.$EK_MAIN_MENU_LINK_FONT_WIDTH;
+    line-height: calc(constants.$EK_HEADER_HEIGHT * 0.4);
+    text-decoration-line: none;
+}
+
+.ek-main-menu-link-selected {
+    font-weight: constants.$EK_MAIN_MENU_LINK_SELECTED_FONT_WIDTH;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 8%;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.ek-miniapps-button {
+    width: constants.$EK_HEADER_HEIGHT;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-left: constants.$EK_BORDER_SIZE solid constants.$EK_BORDER_COLOR;
+}
+
+.ek-miniapps-image {
+    width: 80%;
+    height: 80%;
+}

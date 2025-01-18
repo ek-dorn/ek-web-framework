@@ -1,5 +1,5 @@
 {
-  "name": "ek-web-framework",
+  "name": "example-website",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

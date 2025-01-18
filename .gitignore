@@ -12,16 +12,16 @@
 .history/*
 
 # Compiled output
-example-website/dist
-example-website/tmp
-example-website/out-tsc
-example-website/bazel-out
+**/dist
+**/tmp
+**/out-tsc
+**/bazel-out
 
 # Node
-example-website/node_modules
-example-website/npm-debug.log
-example-website/yarn-error.log
-example-website/package-lock.json
+**/node_modules
+**/npm-debug.log
+**/yarn-error.log
+**/package-lock.json
 
 # Miscellaneous
 **/.angular/cache

@@ -1,0 +1,77 @@
+@use "../../constants";
+
+
+.ek-project-card-holder {
+    width: 100%;
+    height: constants.$EK_PROJECT_CARD_ASPECT_RATIO;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.ek-project-card-image {
+    width: 100%;
+}
+
+.ek-project-card-meta {
+    height: 30%;
+    margin-top: -30%;
+    display: flex;
+    flex-direction: column;
+    background: constants.$EK_PROJECT_CARD_META_COLOR;
+    backdrop-filter: blur(75%);
+}
+
+.ek-project-card-title {
+    margin: 0;
+    padding-inline: 5%;
+    padding-block: 2.5%;
+    color: constants.$EK_GENERAL_TEXT_COLOR;
+    text-shadow: constants.$EK_PROJECT_CARD_META_BACKGROUND;
+    font-family: constants.$EK_GENERAL_FONT_FAMILY;
+    font-size: 75%;
+    font-style: normal;
+    font-weight: constants.$EK_LARGE_FONT_SIZE;
+    line-height: 100%;
+}
+
+.ek-project-card-content {
+    margin: 0;
+    padding-inline: 5%;
+    padding-bottom: 2.5%;
+    color: constants.$EK_GENERAL_TEXT_COLOR;
+    text-shadow: constants.$EK_PROJECT_CARD_META_BACKGROUND;
+    font-family: constants.$EK_GENERAL_FONT_FAMILY;
+    font-size: 65%;
+    font-style: normal;
+    font-weight: constants.$EK_SMALL_FONT_SIZE;
+    line-height: 100%;
+    flex-grow: 1;
+}
+
+.ek-project-card-label-holder {
+    height: calc(100% - constants.$EK_PROJECT_CARD_ASPECT_RATIO);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    gap: 5%;
+}
+
+.ek-project-card-label {
+    display: flex;
+    margin: 0;
+    padding: 2% 5%;
+    border-radius: 20%;
+    background: constants.$EK_PROJECT_CARD_LABEL_BACKGROUND;
+    color: constants.$EK_GENERAL_TEXT_COLOR;
+    font-family: "Roboto Flex";
+    font-size: 65%;
+    font-style: normal;
+    font-weight: constants.$EK_SMALL_FONT_SIZE;
+    line-height: 100%;
+    letter-spacing: 1%;
+}

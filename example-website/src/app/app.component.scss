@@ -34,17 +34,17 @@
 }
 
 .ek-main-menu-link{
-    color: constants.$EK_MAIN_MRNU_LINK_COLOR;
-    font-family: constants.$EK_MAIN_MRNU_LINK_FONT;
-    font-size: calc(constants.$EK_HEADER_HEIGHT * 0.4);
+    color: constants.$EK_GENERAL_TEXT_COLOR;
+    font-family: constants.$EK_GENERAL_FONT_FAMILY;
+    font-size: 100%;
     font-style: normal;
-    font-weight: constants.$EK_MAIN_MENU_LINK_FONT_WIDTH;
-    line-height: calc(constants.$EK_HEADER_HEIGHT * 0.4);
+    font-weight: constants.$EK_SMALL_FONT_SIZE;
+    line-height: 100%;
     text-decoration-line: none;
 }
 
 .ek-main-menu-link-selected {
-    font-weight: constants.$EK_MAIN_MENU_LINK_SELECTED_FONT_WIDTH;
+    font-weight: constants.$EK_BIG_FONT_SIZE;
     text-decoration-line: underline;
     text-decoration-style: dotted;
     text-decoration-skip-ink: auto;

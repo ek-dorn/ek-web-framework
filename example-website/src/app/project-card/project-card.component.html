@@ -1,1 +1,12 @@
-<p>project-card works!</p>
+<div class="ek-project-card-holder">
+    <img class="ek-project-card-image" src="{{ image }}"/>
+    <div class="ek-project-card-meta">
+        <p class="ek-project-card-title">"{{ title }}"</p>
+        <p class="ek-project-card-content">
+            <ng-content></ng-content>
+        </p>
+    </div>
+</div>
+<div class="ek-project-card-label-holder">
+    <p class="ek-project-card-label" *ngFor="let label of labels">{{ label }}</p>
+</div>

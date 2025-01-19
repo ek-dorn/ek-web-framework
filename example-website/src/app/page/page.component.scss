@@ -2,13 +2,13 @@
 
 
 .ek-side-menu {
-    width: 20%;
-    height: 100%;
+    width: constants.$EK_LEFT_MENU_WIDTH;
+    min-height: constants.$EK_LEFT_MENU_MIN_HEIGHT;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     align-self: stretch;
     border-right: constants.$EK_BORDER_SIZE solid constants.$EK_BORDER_COLOR;
-    padding: 1%;
-    gap: 5%;
+    padding: calc(constants.$EK_LEFT_MENU_WIDTH * constants.$EK_LEFT_MENU_PADDING_DIMENSION);
+    gap: calc(constants.$EK_LEFT_MENU_WIDTH * constants.$EK_LEFT_MENU_GAP_DIMENSION);
 }

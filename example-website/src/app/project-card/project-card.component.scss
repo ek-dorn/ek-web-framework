@@ -31,7 +31,7 @@
     color: constants.$EK_GENERAL_TEXT_COLOR;
     text-shadow: constants.$EK_PROJECT_CARD_META_BACKGROUND;
     font-family: constants.$EK_GENERAL_FONT_FAMILY;
-    font-size: 75%;
+    font-size: 100%;
     font-style: normal;
     font-weight: constants.$EK_LARGE_FONT_SIZE;
     line-height: 100%;
@@ -44,7 +44,7 @@
     color: constants.$EK_GENERAL_TEXT_COLOR;
     text-shadow: constants.$EK_PROJECT_CARD_META_BACKGROUND;
     font-family: constants.$EK_GENERAL_FONT_FAMILY;
-    font-size: 65%;
+    font-size: 80%;
     font-style: normal;
     font-weight: constants.$EK_SMALL_FONT_SIZE;
     line-height: 100%;
@@ -64,12 +64,12 @@
 .ek-project-card-label {
     display: flex;
     margin: 0;
-    padding: 2% 5%;
+    padding: 2% 4%;
     border-radius: 20%;
     background: constants.$EK_PROJECT_CARD_LABEL_BACKGROUND;
     color: constants.$EK_GENERAL_TEXT_COLOR;
     font-family: "Roboto Flex";
-    font-size: 65%;
+    font-size: 80%;
     font-style: normal;
     font-weight: constants.$EK_SMALL_FONT_SIZE;
     line-height: 100%;

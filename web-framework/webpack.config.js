@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = [
     {
-        name: "development",
-        mode: "development",
+        name: 'development',
+        mode: 'development',
         entry: './src/index.ts',
         devtool: 'inline-source-map',
         module: {
@@ -24,8 +24,8 @@ module.exports = [
         },
     },
     {
-        name: "production",
-        mode: "production",
+        name: 'production',
+        mode: 'production',
         entry: './src/index.ts',
         module: {
             rules: [

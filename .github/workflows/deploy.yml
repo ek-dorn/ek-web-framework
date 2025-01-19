@@ -29,7 +29,9 @@ jobs:
     
     - name: Build
       working-directory: example-website
-      run: npx ng build --base-href=/ek-web-framework/
+      env:
+        REPO_FOLDER: /ek-web-framework/
+      run: npx ng build --prod --base-href=${{ env.REPO_FOLDER }} --deploy-url=${{ env.REPO_FOLDER }}
         
     - name: NoJekyll
       working-directory: example-website

@@ -25,7 +25,7 @@
 .ek-side-menu-container {
     width: constants.$EK_HUNDRED_PERCENT;
     height: constants.$EK_HUNDRED_PERCENT;
-    margin-left:calc(constants.$EK_LEFT_MENU_WIDTH * constants.$EK_LEFT_MENU_PADDING_DIMENSION - constants.$EK_PROJECT_CARD_SELECTED_WIDTH);
+    margin-left: calc(constants.$EK_LEFT_MENU_WIDTH * constants.$EK_LEFT_MENU_PADDING_DIMENSION - constants.$EK_PROJECT_CARD_SELECTED_WIDTH);
 }
 
 .ek-project-card-holder {

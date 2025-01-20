@@ -20,6 +20,15 @@ body {
 }
 
 
+.ek-no-context {
+    pointer-events: none;
+}
+
+.ek-no-select {
+    user-select: none;
+}
+
+
 app-root {
     width: constants.$EK_HUNDRED_PERCENT;
     height: constants.$EK_HUNDRED_PERCENT;

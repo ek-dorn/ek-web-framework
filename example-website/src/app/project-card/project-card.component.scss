@@ -1,6 +1,33 @@
 @use "../../constants";
 
 
+.ek-side-menu-link {
+    width: constants.$EK_HUNDRED_PERCENT;
+    height: constants.$EK_HUNDRED_PERCENT;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.ek-side-menu-link-border {
+    width: constants.$EK_PROJECT_CARD_SELECTED_WIDTH;
+    margin-left: calc(constants.$EK_LEFT_MENU_WIDTH * constants.$EK_LEFT_MENU_PADDING_DIMENSION * constants.$EK_NEGATIVE);
+}
+
+.ek-side-menu-link-selected {
+    .ek-side-menu-link-border {
+        border-top-right-radius: constants.$EK_PROJECT_CARD_SELECTED_RADIUS;
+        border-bottom-right-radius: constants.$EK_PROJECT_CARD_SELECTED_RADIUS;
+        background: linear-gradient(constants.$EK_PROJECT_CARD_SELECTED_GRADIENT_DEGREES, constants.$EK_PROJECT_CARD_SELECTED_GRADIENT_START, constants.$EK_PROJECT_CARD_SELECTED_GRADIENT_END);
+    }
+}
+
+.ek-side-menu-container {
+    width: constants.$EK_HUNDRED_PERCENT;
+    height: constants.$EK_HUNDRED_PERCENT;
+    margin-left:calc(constants.$EK_LEFT_MENU_WIDTH * constants.$EK_LEFT_MENU_PADDING_DIMENSION - constants.$EK_PROJECT_CARD_SELECTED_WIDTH);
+}
+
 .ek-project-card-holder {
     width: constants.$EK_PROJECT_CARD_WIDTH;
     height: constants.$EK_PROJECT_CARD_ASPECT_RATIO;
@@ -13,11 +40,12 @@
 
 .ek-project-card-image {
     width: constants.$EK_PROJECT_CARD_WIDTH;
+    height: constants.$EK_PROJECT_CARD_WIDTH;
 }
 
 .ek-project-card-meta {
-    height: constants.$EK_PROJECT_CARD_META_HEIGHT;
-    margin-top: calc(constants.$EK_PROJECT_CARD_META_HEIGHT * constants.$EK_NEGATIVE);
+    height: calc(constants.$EK_PROJECT_CARD_META_HEIGHT + constants.$EK_PROJECT_CARD_BORDER_RADIUS);
+    margin-top: calc(constants.$EK_PROJECT_CARD_META_HEIGHT * constants.$EK_NEGATIVE + constants.$EK_PROJECT_CARD_BORDER_RADIUS);
     display: flex;
     flex-direction: column;
     background: constants.$EK_PROJECT_CARD_META_COLOR;
@@ -25,7 +53,9 @@
 }
 
 .ek-project-card-title {
-    padding: constants.$EK_PROJECT_CARD_META_PADDING;
+    padding-top: constants.$EK_PROJECT_CARD_META_PADDING;
+    padding-inline: constants.$EK_PROJECT_CARD_META_PADDING;
+    padding-bottom: constants.$EK_PROJECT_CARD_META_PADDING_BETWEEN;
     color: constants.$EK_GENERAL_TEXT_COLOR;
     text-shadow: constants.$EK_DISTANCE_ZERO constants.$EK_DISTANCE_ZERO constants.$EK_PROJECT_CARD_META_BLUR_RADIUS constants.$EK_PROJECT_CARD_META_BACKGROUND;
     font-family: constants.$EK_GENERAL_FONT_FAMILY;
@@ -53,7 +83,7 @@
     height: calc(constants.$EK_HUNDRED_PERCENT - constants.$EK_PROJECT_CARD_ASPECT_RATIO);
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: end;
     justify-content: left;
     align-self: stretch;
     gap: constants.$EK_PROJECT_CARD_LABEL_HOLDER_GAP;

@@ -29,7 +29,7 @@ app-root {
 
 app-page {
     width: constants.$EK_HUNDRED_PERCENT;
-    height: constants.$EK_HUNDRED_PERCENT;
+    height: calc(constants.$EK_LEFT_MENU_MIN_HEIGHT - constants.$EK_HEADER_HEIGHT);
     display: flex;
     flex-direction: row;
     flex-grow: constants.$EK_FLEX_GROW;

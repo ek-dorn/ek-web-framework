@@ -10,7 +10,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
     styleUrl: './project-card.component.scss'
 })
 export class ProjectCardComponent {
-    @Input() project: string = '';
+    @Input() name: string = '';
     @Input() image: string = '';
     @Input() title: string = '';
     @Input() labels: Array<string> = [];

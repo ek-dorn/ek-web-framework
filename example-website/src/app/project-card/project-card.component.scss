@@ -25,10 +25,9 @@
 }
 
 .ek-project-card-title {
-    margin: constants.$EK_OFFSET_ZERO;
     padding: constants.$EK_PROJECT_CARD_META_PADDING;
     color: constants.$EK_GENERAL_TEXT_COLOR;
-    text-shadow: constants.$EK_OFFSET_ZERO constants.$EK_OFFSET_ZERO constants.$EK_PROJECT_CARD_META_BLUR_RADIUS constants.$EK_PROJECT_CARD_META_BACKGROUND;
+    text-shadow: constants.$EK_DISTANCE_ZERO constants.$EK_DISTANCE_ZERO constants.$EK_PROJECT_CARD_META_BLUR_RADIUS constants.$EK_PROJECT_CARD_META_BACKGROUND;
     font-family: constants.$EK_GENERAL_FONT_FAMILY;
     font-size: constants.$EK_PROJECT_CARD_HEADER_FONT_SIZE;
     font-style: normal;
@@ -37,11 +36,10 @@
 }
 
 .ek-project-card-content {
-    margin: constants.$EK_OFFSET_ZERO;
     padding-inline: constants.$EK_PROJECT_CARD_META_PADDING;
     padding-bottom: constants.$EK_PROJECT_CARD_META_PADDING;
     color: constants.$EK_GENERAL_TEXT_COLOR;
-    text-shadow: constants.$EK_OFFSET_ZERO constants.$EK_OFFSET_ZERO constants.$EK_PROJECT_CARD_META_BLUR_RADIUS constants.$EK_PROJECT_CARD_META_BACKGROUND;
+    text-shadow: constants.$EK_DISTANCE_ZERO constants.$EK_DISTANCE_ZERO constants.$EK_PROJECT_CARD_META_BLUR_RADIUS constants.$EK_PROJECT_CARD_META_BACKGROUND;
     font-family: constants.$EK_GENERAL_FONT_FAMILY;
     font-size: constants.$EK_PROJECT_CARD_CONTENTS_FONT_SIZE;
     font-style: normal;
@@ -62,7 +60,7 @@
 
 .ek-project-card-label {
     display: flex;
-    margin: constants.$EK_OFFSET_ZERO;
+    margin: constants.$EK_DISTANCE_ZERO;
     padding-block: constants.$EK_PROJECT_CARD_LABEL_PADDING_BLOCK;
     padding-inline: constants.$EK_PROJECT_CARD_LABEL_PADDING_INLINE;
     border-radius: constants.$EK_PROJECT_CARD_LABEL_BORDER_RADIUS;

@@ -7,7 +7,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
     selector: 'app-project-card',
     imports: [CommonModule, RouterLink, RouterLinkActive],
     templateUrl: './project-card.component.html',
-    styleUrl: './project-card.component.scss'
+    styleUrl: './project-card.component.scss',
+    host: {'class': 'app-project-card'}
 })
 export class ProjectCardComponent {
     @Input() name: string = '';

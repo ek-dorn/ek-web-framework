@@ -7,7 +7,8 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
     selector: 'app-root',
     imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
     templateUrl: './app.component.html',
-    styleUrl: './app.component.scss'
+    styleUrl: './app.component.scss',
+    host: {'class': 'app-root'}
 })
 export class AppComponent {
     title = 'ek-web-framework';

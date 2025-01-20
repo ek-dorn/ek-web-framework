@@ -29,14 +29,14 @@ body {
 }
 
 
-app-root {
+.app-root {
     width: constants.$EK_HUNDRED_PERCENT;
     height: constants.$EK_HUNDRED_PERCENT;
     display: flex;
     flex-direction: column;
 }
 
-app-page {
+.app-portfolio-page {
     width: constants.$EK_HUNDRED_PERCENT;
     height: calc(constants.$EK_LEFT_MENU_MIN_HEIGHT - constants.$EK_HEADER_HEIGHT);
     display: flex;
@@ -44,7 +44,7 @@ app-page {
     flex-grow: constants.$EK_FLEX_GROW;
 }
 
-app-project-card {
+.app-project-card {
     width: constants.$EK_HUNDRED_PERCENT;
     aspect-ratio: calc(constants.$EK_PROJECT_CARD_ASPECT_RATIO / constants.$EK_HUNDRED_PERCENT);
     display: flex;

@@ -6,10 +6,11 @@ import { ProjectCardComponent } from '../project-card/project-card.component';
 
 
 @Component({
-    selector: 'app-page',
+    selector: 'app-portfolio-page',
     imports: [CommonModule, RouterOutlet, ProjectCardComponent],
     templateUrl: './portfolio-page.component.html',
-    styleUrl: './portfolio-page.component.scss'
+    styleUrl: './portfolio-page.component.scss',
+    host: {'class': 'app-portfolio-page'}
 })
 export class PageComponent {
 

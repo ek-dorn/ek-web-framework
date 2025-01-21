@@ -21,6 +21,7 @@ $EK_DARKER_COLOR: #FF35A4;
 $EK_GENERAL_FONT_FAMILY: "Roboto Flex Variable";
 $EK_GENERAL_TEXT_COLOR: #101319;
 $EK_MINIMAL_FONT_WEIGHT: 100;
+$EK_SEMISMALLER_FONT_WEIGHT: 350;
 $EK_SMALL_FONT_WEIGHT: 400;
 $EK_BIG_FONT_WEIGHT: 500;
 $EK_LARGE_FONT_WEIGHT: 600;
@@ -85,6 +86,7 @@ $EK_PROJECT_CARD_LABEL_LINE_SPACING: 0.18px;
 $PROJECT_BODY_PADDING_TOP: 96px;
 $PROJECT_BODY_PADDING_BOTTOM: 48px;
 $PROJECT_BODY_TEXT_WIDTH: 50%;
+$PROJECT_BODY_GAP: 144px;
 
 // Project body header background constants:
 $PROJECT_BODY_HEADER_BACKGROUND_WIDTH: 1549px;
@@ -95,11 +97,16 @@ $PROJECT_BODY_HEADER_BACKGROUND_MARGIN_TOP: 72px;
 // Project body header container constants:
 $PROJECT_BODY_HEADER_CONTAINER_GAP: 48px;
 
-// Project body header title:
+// Project body header title constants:
 $PROJECT_BODY_HEADER_TITLE_FONT_SIZE: 120px;
 
-// Project body header subtitle:
+// Project body header subtitle constants:
 $PROJECT_BODY_HEADER_SUBTITLE_FONT_SIZE: 40px;
 
-// Project body header image:
+// Project body header image constants:
 $PROJECT_BODY_HEADER_IMAGE_DIMENSION: calc(4 / 3);
+
+// Project body text constants:
+$PROJECT_BODY_TEXT_WIDTH: 50%;
+$PROJECT_BODY_TEXT_GAP: 64px;
+$PROJECT_BODY_TEXT_FONT_SIZE: 32px;

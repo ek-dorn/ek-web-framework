@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: container.$PROJECT_BODY_HEADER_CONTAINER_GAP;
+    gap: constants.$PROJECT_BODY_HEADER_CONTAINER_GAP;
     margin-top: calc(constants.$PROJECT_BODY_HEADER_BACKGROUND_HEIGHT * constants.$EK_NEGATIVE - constants.$PROJECT_BODY_HEADER_BACKGROUND_MARGIN_TOP);
 }
 

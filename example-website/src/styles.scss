@@ -59,7 +59,9 @@ body {
     flex-direction: column;
     padding-top: constants.$PROJECT_BODY_PADDING_TOP;
     padding-bottom: constants.$PROJECT_BODY_PADDING_BOTTOM;
+    align-items: center;
     overflow-y: auto;
+    gap: constants.$PROJECT_BODY_GAP;
 }
 
 .app-project-body-header {
@@ -67,6 +69,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.app-project-body-text {
+    width: constnats.$PROJECT_BODY_TEXT_WIDTH;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: constants.$PROJECT_BODY_TEXT_GAP;
 }
 
 

@@ -72,7 +72,7 @@ body {
 }
 
 .app-project-body-text {
-    width: constnats.$PROJECT_BODY_TEXT_WIDTH;
+    width: constants.$PROJECT_BODY_TEXT_WIDTH;
     display: flex;
     flex-direction: column;
     align-items: center;

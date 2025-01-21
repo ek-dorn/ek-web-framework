@@ -1,0 +1,41 @@
+@use "../../constants";
+
+
+.ek-project-body-header-background {
+    width: constants.$PROJECT_BODY_HEADER_BACKGROUND_WIDTH;
+    height: constants.$PROJECT_BODY_HEADER_BACKGROUND_HEIGHT;
+    z-index: constants.$PROJECT_BODY_HEADER_BACKGROUND_Z_INDEX;
+    margin-top: constants.$PROJECT_BODY_HEADER_BACKGROUND_MARGIN_TOP;
+}
+
+.ek-project-body-header-container {
+    width: constants.$EK_HUNDRED_PERCENT;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: container.$PROJECT_BODY_HEADER_CONTAINER_GAP;
+    margin-top: calc(constants.$PROJECT_BODY_HEADER_BACKGROUND_HEIGHT * constants.$EK_NEGATIVE - constants.$PROJECT_BODY_HEADER_BACKGROUND_MARGIN_TOP);
+}
+
+.ek-project-body-header-title {
+    width: constants.$PROJECT_BODY_TEXT_WIDTH;
+    color: constants.$EK_GENERAL_TEXT_COLOR;
+    font-size: constants.$PROJECT_BODY_HEADER_TITLE_FONT_SIZE;
+    font-weight: constants.$EK_LARGER_FONT_WEIGHT;
+    line-height: constants.$EK_HUNDRED_PERCENT;
+    text-align: center;
+}
+
+.ek-project-body-header-subtitle {
+    width: constants.$PROJECT_BODY_TEXT_WIDTH;
+    flex: constants.$EK_FLEX_GROW;
+    color: constants.$EK_GENERAL_TEXT_COLOR;
+    font-size: constants.$PROJECT_BODY_HEADER_SUBTITLE_FONT_SIZE;
+    font-weight: constants.$EK_BIG_FONT_WEIGHT;
+    text-align: center;
+}
+
+.ek-project-body-header-image {
+    width: constants.$EK_HUNDRED_PERCENT;
+    aspect-ratio: constants.$PROJECT_BODY_HEADER_IMAGE_DIMENSION;
+}

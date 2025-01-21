@@ -12,6 +12,6 @@ import { ProjectCardComponent } from '../project-card/project-card.component';
     styleUrl: './portfolio-page.component.scss',
     host: {'class': 'app-portfolio-page'}
 })
-export class PageComponent {
+export class PortfolioPageComponent {
 
 }

@@ -53,6 +53,24 @@ body {
     align-self: stretch;
 }
 
+.app-project-body {
+    width: calc(constants.$EK_HUNDRED_PERCENT - constants.$EK_LEFT_MENU_WIDTH);
+    display: flex;
+    flex-direction: column;
+    padding-top: constants.$PROJECT_BODY_PADDING_TOP;
+    padding-bottom: constants.$PROJECT_BODY_PADDING_BOTTOM;
+    overflow-y: auto;
+}
+
+.app-project-body-header {
+    width: constants.$EK_HUNDRED_PERCENT;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 
 @font-face {
     font-family: constants.$EK_GENERAL_FONT_FAMILY;

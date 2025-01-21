@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 
-import { PageComponent } from './portfolio-page/portfolio-page.component';
+import { PortfolioPageComponent } from './portfolio-page/portfolio-page.component';
 import { ProjectBodyComponent } from './project-body/project-body.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
@@ -13,7 +13,7 @@ export const routes: Routes = [
     },
     {
         path: 'portfolio',
-        component: PageComponent,
+        component: PortfolioPageComponent,
         children: [
             {
                 path: '',

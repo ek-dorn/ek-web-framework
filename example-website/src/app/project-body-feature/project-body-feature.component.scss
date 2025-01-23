@@ -1,0 +1,13 @@
+@use "../../constants";
+
+
+.ek-project-body-feature-description {
+    width: constants.$PROJECT_BODY_FEATURE_DESCRIPTION_WIDTH;
+    color: constants.$EK_GENERAL_TEXT_COLOR;
+    font-size: constants.$PROJECT_BODY_FEATURE_DESCRIPTION_FONT_SIZE;
+    font-weight: constants.$EK_SEMISMALLER_FONT_WEIGHT;
+}
+
+.ek-project-body-feature-image {
+    width: constants.$EK_HUNDRED_PERCENT;
+}

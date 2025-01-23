@@ -1,0 +1,21 @@
+@use "../../constants";
+
+
+.ek-project-body-footer-logo-holder {
+    width: constants.$PROJECT_BODY_FOOTER_LOGO_HOLDER_WIDTH;
+    height: constants.$PROJECT_BODY_FOOTER_LOGO_HOLDER_HEIGHT;
+}
+
+.ek-project-body-footer-logo {
+    width: constants.$PROJECT_BODY_FOOTER_LOGO_WIDTH;
+    height: constants.$PROJECT_BODY_FOOTER_LOGO_HEIGHT;
+}
+
+.ek-project-body-footer-text {
+    width: constants.$PROJECT_BODY_FOOTER_TEXT_WIDTH;
+    height: constants.$PROJECT_BODY_FOOTER_TEXT_HEIGHT;
+    gap: constants.$PROJECT_BODY_FOOTER_TEXT_GAP;
+    font-weight: constants.$EK_SMALLER_FONT_WEIGHT;
+    font-size: constants.$PROJECT_BODY_FOOTER_TEXT_FONT_SIZE;
+    line-height: constants.$PROJECT_BODY_FOOTER_TEXT_LINE_HEIGHT;
+}

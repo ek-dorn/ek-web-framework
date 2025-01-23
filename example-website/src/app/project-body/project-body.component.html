@@ -1,25 +1,34 @@
-<app-project-body-header title="{{ project }} name" background="./sample-portfolio.svg" image="https://picsum.photos/1200/900" class="ek-no-select">
+<app-project-body-header title="{{ project }} name" background="./sample-portfolio.svg" image="https://picsum.photos/1200/900?random=3" class="ek-no-select">
     Murdererrr pizza - get killed by pizza!
     50% of the screen description.
 </app-project-body-header>
 
-<app-project-body-text image="https://picsum.photos/900/600">
+<app-project-body-text image="https://picsum.photos/900/600?random=4" alignment="left">
     Эту пиццу я приготовил для Тони Сопрано, он ее съел и сказал: <br>
     -- Офигеть Миша как вкусно
 </app-project-body-text>
 
-<div></div>
+<app-project-body-pattern image="./sample-pattern.svg" [rows]="2"></app-project-body-pattern>
 
-<img/>
+<app-project-body-feature image="https://picsum.photos/1200/600?random=5">
+    Пицца — это не просто еда, это настоящее искусство!
+    С хрустящей корочкой, расплавленным сыром и разнообразными начинками, она способна удовлетворить любой вкус.
+    Представьте себе пиццу с нежным куриным филе, сладким ананасом и щедрой порцией соуса BBQ.
+    Это идеальный выбор для вечеринки с друзьями или уютного ужина дома!
+</app-project-body-feature>
 
-<div>
-    <p></p>
+<app-project-body-text image="https://picsum.photos/900/1000?random=6" alignment="right">
+    Пицца — это не просто еда, это настоящее искусство!
+    Представьте себе хрустящее тесто, щедро покрытое томатным соусом.
+</app-project-body-text>
 
-    <img/>
-</div>
+<img class="ek-project-body-image" src="https://picsum.photos/1200/900?random=7"/>
 
-<img/>
+<app-project-body-overlay image="./sample-overlay.svg">
+    Кебаб кебаб кебаб кебаб кебаб кебаб кебаб кеба кебаб кебаб кеба
+</app-project-body-overlay>
 
-<footer>
-
-</footer>
+<app-project-body-footer image="./sample-watermark.svg">
+    Смотрите реализацию проекта по ссылке: <br>
+    <a href="./" class="ek-project-body-footer-link">скуф.ру</a>
+</app-project-body-footer>

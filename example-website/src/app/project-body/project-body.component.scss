@@ -1,0 +1,14 @@
+@use "../../constants";
+
+
+.ek-project-body-image {
+    width: constants.$EK_HUNDRED_PERCENT;
+}
+
+.ek-project-body-footer-link {
+    font-weight: constants.$EK_BIG_FONT_WEIGHT;
+    font-size: constants.$PROJECT_BODY_FOOTER_LINK_FONT_SIZE;
+    line-height: constants.$PROJECT_BODY_FOOTER_LINK_LINE_HEIGHT;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}

@@ -1,0 +1,10 @@
+@use "../../constants";
+
+
+.ek-project-body-pattern-row {
+    width: constants.$EK_HUNDRED_PERCENT;
+    height: constants.$PROJECT_BODY_PATTERN_ROW_HEIGHT;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

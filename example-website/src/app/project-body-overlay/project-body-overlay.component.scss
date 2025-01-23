@@ -1,0 +1,11 @@
+@use "../../constants";
+
+
+.ek-project-body-overlay-text {
+    width: constants.$PROJECT_BODY_OVERLAY_TEXT_WIDTH;
+    font-weight: constants.$EK_BIG_FONT_WEIGHT;
+    font-size: constants.$PROJECT_BODY_OVERLAY_TEXT_FONT_SIZE;
+    line-height: constants.$PROJECT_BODY_OVERLAY_TEXT_LINE_HEIGHT;
+    text-align: center;
+    position: absolute;
+}

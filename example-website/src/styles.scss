@@ -69,6 +69,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .app-project-body-text {
@@ -78,7 +79,39 @@ body {
     gap: constants.$PROJECT_BODY_TEXT_GAP;
 }
 
+.app-project-body-feature {
+    width: constants.$EK_HUNDRED_PERCENT;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: constants.$PROJECT_BODY_FEATURE_GAP;
+}
 
+.app-project-body-pattern {
+    width: constants.$EK_HUNDRED_PERCENT;
+    display: flex;
+    flex-direction: column;
+    gap: constants.$PROJECT_BODY_PATTERN_GAP;
+}
+
+.app-project-body-overlay {
+    width: constants.$PROJECT_BODY_OVERLAY_WIDTH;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.app-project-body-footer {
+    width: constants.$EK_HUNDRED_PERCENT;
+    height: constants.$PROJECT_BODY_FOOTER_HEIGHT;
+    padding-block: constants.$PROJECT_BODY_FOOTER_PADDING_BLOCK;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 @font-face {

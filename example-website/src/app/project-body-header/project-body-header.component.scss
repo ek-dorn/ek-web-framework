@@ -5,7 +5,8 @@
     width: constants.$PROJECT_BODY_HEADER_BACKGROUND_WIDTH;
     height: constants.$PROJECT_BODY_HEADER_BACKGROUND_HEIGHT;
     z-index: constants.$PROJECT_BODY_HEADER_BACKGROUND_Z_INDEX;
-    margin-top: constants.$PROJECT_BODY_HEADER_BACKGROUND_MARGIN_TOP;
+    position: absolute;
+    top: constants.$PROJECT_BODY_HEADER_BACKGROUND_TOP;
 }
 
 .ek-project-body-header-container {
@@ -14,7 +15,6 @@
     flex-direction: column;
     align-items: center;
     gap: constants.$PROJECT_BODY_HEADER_CONTAINER_GAP;
-    margin-top: calc(constants.$PROJECT_BODY_HEADER_BACKGROUND_HEIGHT * constants.$EK_NEGATIVE - constants.$PROJECT_BODY_HEADER_BACKGROUND_MARGIN_TOP);
 }
 
 .ek-project-body-header-title {

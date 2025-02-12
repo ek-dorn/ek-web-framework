@@ -44,8 +44,8 @@
 }
 
 .ek-project-card-meta {
-    height: calc(constants.$EK_PROJECT_CARD_META_HEIGHT + constants.$EK_PROJECT_CARD_BORDER_RADIUS);
-    margin-top: calc(constants.$EK_PROJECT_CARD_META_HEIGHT * constants.$EK_NEGATIVE + constants.$EK_PROJECT_CARD_BORDER_RADIUS);
+    height: calc(constants.$EK_PROJECT_CARD_META_HEIGHT);
+    margin-top: calc(constants.$EK_PROJECT_CARD_META_HEIGHT * constants.$EK_NEGATIVE);
     display: flex;
     flex-direction: column;
     background: constants.$EK_PROJECT_CARD_META_COLOR;
@@ -73,7 +73,7 @@
     flex-grow: constants.$EK_FLEX_GROW;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: wrap;
     line-clamp: constants.$EK_PROJECT_CARD_CONTENTS_MAX_LINES;
 }
 
